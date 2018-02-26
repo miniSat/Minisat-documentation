@@ -1,5 +1,5 @@
 # Host
-Minisat is host-based virtualization in which one can have access and control to the VM from single server.
+Minisat can create host-based virtual machine which can be accessed and controlled from a centralized server.
 + Operating System
     * Add new
     * Already Existing
