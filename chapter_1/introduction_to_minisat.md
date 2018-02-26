@@ -1,18 +1,24 @@
 # Introduction to Minisat
 
 ### What is Minisat?
-A Web based platform where one can spawn virtual machines and run docker images on the remote machine in very short time.
-One can provision, configure and maintain virtual machine easily.
+A Web based platform to provision virtual machines and run Docker images on a remote machine.
+Provides functionalities to manage virtual machines and containers.
 
 
 ### Architecture
-It is based on python and use Django framework. It is a miniature of Red Hat Satellite. A minisat installation will contain a central web based GUI that will allow user to create instances as per the need.
+Django framework is used beneath Minisat which is responsible for providing a central web based GUI that will allow user to create instances as per the need.
 
 ### Technologies
-To setup a minisat various open source technologies and software are used.
-- Virt Manager.
-- Libvirt API.
-- Django.
-- Web languages(HTML, CSS, Patterfly, Jquery, AJAX).
-- Docker.
+To setup Minisat various open source technologies and software are used such as
+- Libvirt API
+- Django Framework
+- Docker
+- Technology Stack:
+    + Front End
+        + HTML, CSS
+        + Patternfly
+        + Javascript
+    + Back End
+        + Python
+
 
