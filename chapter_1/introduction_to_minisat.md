@@ -16,4 +16,3 @@ To setup a minisat various open source technologies and software are used.
 - Web languages(HTML, CSS, Patterfly, Jquery, AJAX).
 - Docker.
 
-
