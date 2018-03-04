@@ -7,6 +7,8 @@
 * [Components](components/README.md)
    * [Infrastructure](components/infrastructure.md)
    * [Host](components/host.md)
+   * [Content](components/content.md)
+   * [Host Group](components/create_host.md)
    * [Containers](components/containers.md)
 * [How to Start with Minisat?](how_to_start_with_minisat/README.md)
    * [Creating Virtual Machines](how_to_start_with_minisat/creating_virtual_machines.md)
