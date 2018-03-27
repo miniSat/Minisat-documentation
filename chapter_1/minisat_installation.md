@@ -21,12 +21,6 @@ curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machi
 sudo install /tmp/docker-machine /usr/local/bin/docker-machine
 ```
 
-+ Server should have HTTP service installed and running.
-
-```sh
-dnf install httpd -y
-```
-
 + Server should have SSH public key or it can be generated using SSH keygen.
 
 ```sh
@@ -34,6 +28,27 @@ ssh-keygen
 ```
 
 #### Installation
+###### From Docker
+
+To run Minisat using docker, first clone the Github Minisat repository using and go to directory Minisat
+```sh
+git clone https://github.com/miniSat/minisat.git
+cd Minisat
+```
+Now build docker image for Minisat using
+```sh
+docker build -t minisat:latest .
+```
+Hang on building docker image may take time depending on your internet speed.
+
+After building the image now run the image using
+```sh
+docker container run -it -p 8000:8000 minisat:latest 0.0.0.0:8000
+```
+Head to http://localhost:8000 for Minisat
+
+###### From Source code
+
 Minisat uses Django web framework which can be installed in  Python 3 virtual environment. To create Python 3 virtual environment
 ```sh
 python3 -m venv <environment_name>

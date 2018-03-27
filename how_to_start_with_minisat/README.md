@@ -7,7 +7,7 @@ This section is divide into two parts:
 * Creating Virtual Machine
 * Creating Docker Instances
 
-Before proceeding further make sure you have gone through [**Minisat Installation**](http://localhost:8004/chapter_1/minisat_installation.html) section because it consist of all the prerequisite that are required to setup and start Minisat server.
+Before proceeding further make sure you have gone through [**Minisat Installation**](/chapter_1/minisat_installation.html) section because it consist of all the prerequisite that are required to setup and start Minisat server.
 
 
 

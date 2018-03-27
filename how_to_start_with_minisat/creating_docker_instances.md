@@ -1,8 +1,8 @@
-*# Running Docker Containers
+# Running Docker Containers
 
 Docker containers are created either from existing local images or by pulling images from Docker registry and then running them.
 
-###Step 1###
+###Step 1
 
 First you need to create compute resource.
 
@@ -15,7 +15,7 @@ To do so click on Infrastructure => Compute Resource
 
 >If you have already added compute for virtual machine no need to create again, same compute can be used for containers also.
 
-###Step 2###
+###Step 2
 
 
 The previous step will now allow the server to perform SSH on remote Docker server and gather container related facts.
@@ -27,7 +27,7 @@ To run a container from Docker image
 * Provide the host port and container port
 * Select compute resource
 
-###Step 3###
+###Step 3
 Finally hit `Run` to run container.
 
 Check running running containers on dashboard under Docker containers tab.
