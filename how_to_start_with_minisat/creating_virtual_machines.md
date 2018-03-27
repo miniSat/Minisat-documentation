@@ -1,7 +1,7 @@
 # Creating Virtual Machines
 Follow the steps carefully so that you dont get any error while creating virtual machine. The steps are very easy only need is to follow them in order.
 
-###Step 1###
+###Step 1
 
 First you need to create compute resource.
 
